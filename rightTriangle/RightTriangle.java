@@ -17,7 +17,7 @@ public class RightTriangle {
     System.out.print("Please enter a number: ");
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
-    RightTriangle vline = new RightTriangle();
-    vline.drawRightTriangle(n);
+    RightTriangle rightTriangle = new RightTriangle();
+    rightTriangle.drawRightTriangle(n);
   }
 }
